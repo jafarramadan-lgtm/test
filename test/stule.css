@@ -1,0 +1,80 @@
+*{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 0;
+margin: 0;}
+body{
+    background-image: linear-gradient(to right,#01022d,black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-image:
+    linear-gradient(to right ,rgba(0, 0, 0, 0.685) 30%,rgba(0, 0, 0, 0.748)),
+    url(تنزيل.webp)
+    ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+width:100%;
+height: 100vh;
+
+}
+
+.content:hover{
+    background-image:
+     linear-gradient(to right ,rgba(0, 0, 0, 0.74) 30% , transparent),
+    url(تنزيل.webp)
+    ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{color:white;
+text-decoration: none;}
+.logo{font-size: 40px;
+text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color:white ;
+}
+.con{
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+}
+h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+p{
+    letter-spacing:2px;
+     width: 350px;
+     padding: 20px 0;
+
+}
+button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+button:hover{
+    background-color: transparent;
+     border-color:white ;
+     color: white;
+     cursor: pointer;
+}
